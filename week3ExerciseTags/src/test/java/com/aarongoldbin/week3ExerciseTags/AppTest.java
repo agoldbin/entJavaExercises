@@ -1,4 +1,4 @@
-package aarongoldbin.com/week3ExerciseTags;
+package com.aarongoldbin.week3ExerciseTags;
 
 import junit.framework.Test;
 import junit.framework.TestCase;

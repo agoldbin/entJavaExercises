@@ -6,6 +6,15 @@ import javax.servlet.jsp.tagext.SimpleTagSupport;
 import java.io.IOException;
 import java.time.*;
 
+/**
+ * This class will determine the time and output an appropriate message to the jsp
+ *
+ * @author agoldbin
+ */
+
+/**
+ * The type Time tag.
+ */
 public class TimeTag extends SimpleTagSupport {
     private LocalTime currentTime;
     @Override
@@ -19,6 +28,12 @@ public class TimeTag extends SimpleTagSupport {
         out.println(determineTimeMessage(currentTime));
     }
 
+    /**
+     * Determine time message string.
+     *
+     * @param currentTime the current time
+     * @return the string
+     */
     public String determineTimeMessage(LocalTime currentTime) {
         String timeMessage = "";
         if (currentTime.isBefore(LocalTime.of(12, 00))) {

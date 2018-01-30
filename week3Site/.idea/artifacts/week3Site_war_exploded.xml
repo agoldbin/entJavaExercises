@@ -6,6 +6,9 @@
         <element id="directory" name="classes">
           <element id="module-output" name="week3Site" />
         </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="Maven: com.aarongoldbin.week3ExerciseTags:week3ExerciseTags:1.0-SNAPSHOT" />
+        </element>
       </element>
       <element id="directory" name="META-INF">
         <element id="file-copy" path="$PROJECT_DIR$/target/week3Site/META-INF/MANIFEST.MF" />

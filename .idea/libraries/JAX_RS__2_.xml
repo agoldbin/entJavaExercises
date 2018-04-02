@@ -1,9 +1,0 @@
-<component name="libraryTable">
-  <library name="JAX-RS (2)" type="JAX-RS">
-    <CLASSES>
-      <root url="jar://$PROJECT_DIR$/../jerseyjars/jersey-container-servlet-core.jar!/" />
-    </CLASSES>
-    <JAVADOC />
-    <SOURCES />
-  </library>
-</component>

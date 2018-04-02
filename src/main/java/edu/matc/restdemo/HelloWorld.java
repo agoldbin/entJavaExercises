@@ -1,7 +1,7 @@
 package edu.matc.restdemo;
 
 import javax.ws.rs.*;
-import javax.xml.ws.Response;
+import  javax.ws.rs.core.Response;
 
 
 @Path("/hello")

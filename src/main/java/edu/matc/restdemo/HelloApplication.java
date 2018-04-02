@@ -1,13 +1,12 @@
 package edu.matc.restdemo;
 
-import javafx.application.Application;
-
-import javax.ws.rs.*;
+import javax.ws.rs.ApplicationPath;
+import javax.ws.rs.core.Application;
 import java.util.HashSet;
 import java.util.Set;
 
 //Defines the base URI for all resource URIs.
-@ApplicationPath("/"). //You may want to add a value here so that all traffic isn't routed to the class below.
+@ApplicationPath("/services"). //You may want to add a value here so that all traffic isn't routed to the class below.
 
 //The java class declares root resource and provider classes
 public class HelloApplication extends Application {

@@ -50,7 +50,17 @@
       <pane id="Scratches" />
       <pane id="PackagesPane" />
       <pane id="AndroidView" />
-      <pane id="ProjectPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="entJavaExercises" type="b2602c69:ProjectViewProjectNode" />
+              <item name="entJavaExercises" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
       <pane id="Scope" />
     </panes>
   </component>
@@ -173,12 +183,12 @@
       <option name="presentableId" value="Default" />
       <updated>1517320186467</updated>
       <workItem from="1517320189811" duration="5000" />
-      <workItem from="1522718077921" duration="34000" />
+      <workItem from="1522718077921" duration="91000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="39000" />
+    <option name="totallyTimeSpent" value="96000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />

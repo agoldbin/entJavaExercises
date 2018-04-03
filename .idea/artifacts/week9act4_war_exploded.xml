@@ -1,0 +1,6 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="week9act4:war_exploded">
+    <output-path>$PROJECT_DIR$/target/week9act4/week9act4_war_exploded</output-path>
+    <root id="root" />
+  </artifact>
+</component>
